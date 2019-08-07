@@ -90,7 +90,7 @@ static int parse_status(const char *value)
 			idev = imported_device_init(idev, lbusid);
 			if (!idev) {
 				dbg("imported_device_init failed");
-				return -1;
+				//return -1;
 			}
 		}
 

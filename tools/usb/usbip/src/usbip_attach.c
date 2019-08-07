@@ -183,7 +183,7 @@ static int query_import_device(int sockfd, char *busid)
 	return import_device(sockfd, &reply.udev);
 }
 
-static int attach_device(char *host, char *busid)
+int attach_device(char *host, char *busid)
 {
 	int sockfd;
 	int rc;

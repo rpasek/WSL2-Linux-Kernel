@@ -99,6 +99,13 @@ static const struct command cmds[] = {
 		.help  = "Show imported USB devices",
 		.usage = NULL
 	},
+	{
+		.name  = "auto",
+		.fn    = usbip_auto,
+		.help  = "Auto attach/detach USB devices",
+		.usage = usbip_auto_usage
+	},
+
 	{ NULL, NULL, NULL, NULL }
 };
 
